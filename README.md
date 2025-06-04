@@ -2,9 +2,8 @@
 
 This is the base notebook I created for the 2014/2015 tutorial on deep learning for RF signal detection that was used by NVidia for the early GTC course on same topic and on NVidia online course site during 2015-2018 time-frame. At the time, I was co-founder of the tech startup KickView Corporation, an early NVidia inception partner. 
 
-## Demo
+<img src="images/figure4.png" alt="Demo" width="600"/>
 
-![Demo](images/figure4.png)
 
 ## About
 This tutorial introduces some basic methods for utilizing a Convolutional Neural Network (CNN) to process spectrograms created from Radio Frequency (RF) data. This tutorial was provided to NVidia Corporation in 2015 and has been used in their enterprise training tutorial series for several years. This version removes the dependency on DIGITS and uses only Keras and Tensorflow.
