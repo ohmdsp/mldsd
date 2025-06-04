@@ -31,17 +31,19 @@ A linear frequency-modulated (LFM), or chirp, signal is a signal that ramps up o
 Figure 1 shows a high-SNR chirp as seen in a grayscale spectrogram (the format we will be using). Since the spectrogram consists of real numbers all > 0, we can map it to an image file by scaling the values appropriately. So we only need a single grayscale image channel. In this plot, the x axis is time and the y axis is frequency. Brightness is proportional to signal power.
 
 
-![Demo](images/figure1.png)
+
+<img src="images/figure2.png" alt="Demo" width="400"/>
+
 
 The above chirp (Figure 1) has a high SNR and is easy to detect with traditional signal processing algorithms. But when the environment contains other signals and noise, reliable detection becomes more difficult. Figure 2 shows an example spectrogram with some pulsed carrier waves (sinusoids) and a low-bitrate digital communication BPSK signal embedded in noise.
 
-![Demo](images/figure2.png)
+<img src="images/figure3.png" alt="Demo" width="400"/>
 Fig2. Multiple signals and noise (x-axis is time, y-axis is frequency).
 
 In Figure 2 there is no chirp signal, just noise and other signals. This is similar to what “real-world” RF signals look like – combinations of signal classes with different strengths, all embedded in noise. Figure 3 consists of another spectrogram showing noise, interfering signals, and a weak chirp signal.
 
 
-![Demo](images/figure3.png)
+<img src="images/figure4.png" alt="Demo" width="400"/>
 Fig3. Weak chirp embedded in noise with other signals (x-axis is time, y-axis is frequency).
 
 In Figure 3 the chirp signal is several dB below the noise power in this frequency band. In fact, the signal-to-noise-ratio (SNR) for the chirp is -7 dB. Note that it is barely visible to the human eye. Traditional detection methods, without large amounts of integration and/or a prior signal information, fail consistently in detecting a weak signal like this. Moreover, since we have interfering signals that are sharing the same bandwidth as the chirp, the problem becomes even harder.
