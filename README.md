@@ -38,7 +38,7 @@ The above chirp (Figure 1) has a high SNR and is easy to detect with traditional
 
 Fig2. Multiple signals and noise (x-axis is time, y-axis is frequency).<br><br>
 
-In Figure 2 there is no chirp signal, just noise and other signals. This is similar to what “real-world” RF signals look like – combinations of signal classes with different strengths, all embedded in noise. Figure 3 consists of another spectrogram showing noise, interfering signals, and a weak chirp signal.<br>
+In Figure 2, there is no chirp signal, just noise and other signals. This is similar to what “real-world” RF signals look like – combinations of signal classes with different strengths, all embedded in noise. Figure 3 consists of another spectrogram showing noise, interfering signals, and a weak chirp signal.<br>
 
 
 <img src="images/figure4.png" alt="Demo" width="400"/>
