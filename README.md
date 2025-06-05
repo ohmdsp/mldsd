@@ -34,19 +34,19 @@ Figure 1 shows a high-SNR chirp as seen in a grayscale spectrogram (the format w
 <img src="images/figure2.png" alt="Demo" width="400"/>
 
 
-The above chirp (Figure 1) has a high SNR and is easy to detect with traditional signal processing algorithms. But when the environment contains other signals and noise, reliable detection becomes more difficult. Figure 2 shows an example spectrogram with some pulsed carrier waves (sinusoids) and a low-bitrate digital communication BPSK signal embedded in noise.
+The above chirp (Figure 1) has a high SNR and is easy to detect with traditional signal processing algorithms. But when the environment contains other signals and noise, reliable detection becomes more difficult. Figure 2 shows an example spectrogram with some pulsed carrier waves (sinusoids) and a low-bitrate digital communication BPSK signal embedded in noise.<br>
 
 <img src="images/figure3.png" alt="Demo" width="400"/>
-Fig2. Multiple signals and noise (x-axis is time, y-axis is frequency).
+Fig2. Multiple signals and noise (x-axis is time, y-axis is frequency).<br>
 
-In Figure 2 there is no chirp signal, just noise and other signals. This is similar to what “real-world” RF signals look like – combinations of signal classes with different strengths, all embedded in noise. Figure 3 consists of another spectrogram showing noise, interfering signals, and a weak chirp signal.
+In Figure 2 there is no chirp signal, just noise and other signals. This is similar to what “real-world” RF signals look like – combinations of signal classes with different strengths, all embedded in noise. Figure 3 consists of another spectrogram showing noise, interfering signals, and a weak chirp signal.<br>
 
 
 <img src="images/figure4.png" alt="Demo" width="400"/>
-Fig3. Weak chirp embedded in noise with other signals (x-axis is time, y-axis is frequency).
+Fig3. Weak chirp embedded in noise with other signals (x-axis is time, y-axis is frequency).<br>
 
 In Figure 3 the chirp signal is several dB below the noise power in this frequency band. In fact, the signal-to-noise-ratio (SNR) for the chirp is -7 dB. Note that it is barely visible to the human eye. Traditional detection methods, without large amounts of integration and/or a prior signal information, fail consistently in detecting a weak signal like this. Moreover, since we have interfering signals that are sharing the same bandwidth as the chirp, the problem becomes even harder.
-W
+
 ## What is this good for?
 
 When monitoring RF signals, we want accurate detection of these types of signals, as a human cannot visually inspect all the data manually. For example, in the case of intelligent spectral monitoring or cognitive radio, we want something to autonomously analyze extraordinary amounts of signal data all the time. The question arises: Can we design a better process to help detect these weak signals?
