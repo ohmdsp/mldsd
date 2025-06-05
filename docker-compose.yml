@@ -7,7 +7,6 @@ services:
       - NVIDIA_VISIBLE_DEVICES=all
     volumes:
       - .:/workspace
-      - /home/drohm/development/mldsd:/mldsd
       - ~/development/data:/data
     working_dir: /workspace
     tty: true
