@@ -2,6 +2,10 @@
 
 This is the base notebook I created for the 2014/2015 tutorial on deep learning for RF signal detection that was used by NVidia for the early GTC course on same topic and on NVidia online course site during 2015-2018 time-frame. At the time, I was co-founder of the tech startup KickView Corporation, an early NVidia inception partner. 
 
+The dataset can be downloaded at https://huggingface.co/datasets/OhmDSP/MLDSD
+
+
+
 <img src="images/figure4.png" alt="Demo" width="600"/>
 
 
